@@ -24,10 +24,13 @@
 ### 1. 安装依赖
 
 pip install -r requirements.txt
+
 2. 配置 API Key
+3. 
 在项目根目录创建 .env 文件，写入：
 
 AGNES_API_KEY=sk-你的密钥
+
 获取密钥：https://platform.agnes-ai.cn
 
 3. 启动服务
@@ -36,7 +39,7 @@ python app.py
 
 4. 访问
   
-5. 浏览器打开 http://127.0.0.1:5000
+浏览器打开 http://127.0.0.1:5000
 
 📁 项目结构
 
