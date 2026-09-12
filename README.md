@@ -1,4 +1,3 @@
-@@ -0,0 +1,83 @@
 # 诸神议事厅 · 多智能体辩论系统
 
 让孔子、苏格拉底、尼采、富兰克林针对同一议题展开辩论，模拟真实的思想交锋。
@@ -29,18 +28,18 @@ pip install -r requirements.txt
 2. 配置 API Key
 在项目根目录创建 .env 文件，写入：
 
-```text
+text
 AGNES_API_KEY=sk-你的密钥
 获取密钥：https://platform.agnes-ai.cn
 
 3. 启动服务
-```bash
+bash
 python app.py
 4. 访问
 浏览器打开 http://127.0.0.1:5000
 
 📁 项目结构
-```text
+text
 .
 ├── app.py                  # 后端主程序
 ├── requirements.txt        # 依赖清单
@@ -54,7 +53,7 @@ python app.py
 
 建议创建 .gitignore，内容如下：
 
-```text
+text
 .env
 venv/
 __pycache__/
